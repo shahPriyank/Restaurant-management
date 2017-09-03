@@ -1,0 +1,42 @@
+@import url('normalize.css');
+
+/* General Demo Style */
+@font-face {
+  font-family: 'icons';
+  src: url('fonts/icons.eot');
+  src: url('fonts/icons.eot?#iefix') format('embedded-opentype'),
+       url('fonts/icons.woff') format('woff'),
+       url('fonts/icons.ttf') format('truetype'),
+       url('fonts/icons.svg#icons') format('svg');
+  font-weight: normal; font-style: normal;
+}
+
+a{
+	color: #555;
+	text-decoration: none;
+}
+.container{
+	width: 100%;
+	position: absolute;
+	top: 200px;
+}
+.clr{
+	clear: both;
+	padding: 0;
+	height: 0;
+	margin: 0;
+}
+
+.main{
+	width: 672px;
+	height: 480px;
+	padding: 30px 0;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+	
+	
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
